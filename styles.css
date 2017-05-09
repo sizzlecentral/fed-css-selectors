@@ -1,2 +1,61 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+  font-family: helvetica, arial, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid blue;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 2px dashed red;
+}
+
+ul li:nth-child(2n) {
+  background-color: grey;
+}
+
+ul li:nth-child(2n+1) {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol > li {
+  padding: 20px;
+  background-color: grey;
+}
+
+#advanced-selectors ul li:nth-child(2n+1) {
+  background-color: green;
+}
+
+a[title="Bitmaker"]:hover {
+  text-decoration: none;
+}
+
+li > a:hover {
+  background-color: yellow;
+}
+
+li > a:active {
+  background-color: red;
+}
